@@ -3,16 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="count.js">
 
-<link rel="stylesheet" href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-</link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
 <link rel="stylesheet" href="bootstrap\dist\css\bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap\dist\js\bootstrap.min.js">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" type="text/css" href="C:\Users\Fatou Bintou\Desktop\bakeli\study\styles\study.css">
 <link rel="stylesheet" type="text/css" href="study1.css">
 <title>home</title>
@@ -77,14 +82,15 @@
     </ul>
   </div>
 </nav>
-<div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+
+<div id="carousel-example-1" class="carousel hauteur slide carousel-fade" data-ride="carousel" data-interval="false">
 
 
     <!--Slides-->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner hauteur" role="listbox">
 
       <!--First slide-->
-      <div class="carousel-item carousel-item1 active">
+      <div class="carousel-item hauteur carousel-item1 active">
         <div class="flouslide"></div>
         <!--Mask-->
         <div class="view col-lg-7 section6">
@@ -111,6 +117,7 @@ don't look even slightly believable.</p>
 
       <!--Second slide -->
       <div class="carousel-item carousel-item2">
+        <div class="flouslide"></div>
         <!--Mask-->
         <div class="view col-lg-7 section6">
           <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
@@ -135,6 +142,7 @@ don't look even slightly believable.</p>
 
       <!--Third slide-->
       <div class="carousel-item carousel-item3">
+        <div class="flouslide"></div>
         <!--Mask-->
         <div class="view col-lg-7 section6">
           <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
@@ -196,12 +204,12 @@ don't look even slightly believable.</p>
           <div class="row contour">
               <div class="col-lg-4">
                 <div class="image">
-                  <a href="#" >
+                  <a href="coursedetail.html" >
                     <img  src="http://preview.hasthemes.com/study/img/course/1.jpg" style="width: 100%">
                   </a>
                   <div class="content content1">
                     <h4>
-                      <a class="title" href="#">Department of Mechanical Engineering (ME)</a>
+                      <a class="title" href="coursedetail.html">Department of Mechanical Engineering (ME)</a>
                     </h4>
                     <div>
                       <a class="soustitre"href="#">Faculty of ME</a>
@@ -216,12 +224,12 @@ don't look even slightly believable.</p>
               <div class="col-lg-4">
 
                  <div class="image">
-                  <a href="#" >
+                  <a href="coursedetail.html" >
                     <img src="http://preview.hasthemes.com/study/img/course/2.jpg"style="width: 100%">
                   </a>
                   <div class="content content1">
                     <h4>
-                      <a  class="title" href="#">Industrial & Production Engineering (IPE)</a>
+                      <a  class="title" href="coursedetail.html">Industrial & Production Engineering (IPE)</a>
                     </h4>
                     <div>
                       <a  class="soustitre" href="#">Faculty of ME</a>
@@ -236,12 +244,12 @@ don't look even slightly believable.</p>
               <div class="col-lg-4">
 
                 <div class="image">
-                  <a href="#" >
+                  <a href="coursedetail.html" >
                     <img src="http://preview.hasthemes.com/study/img/course/3.jpg"style="width: 100%">
                   </a>
                   <div class="content content1">
                     <h4>
-                      <a  class="title" href="#">Department of Civil Engineering (CE)</a>
+                      <a  class="title" href="coursedetail.html">Department of Civil Engineering (CE)</a>
                     </h4>
                     <div>
                       <a  class="soustitre" href="#">Faculty of CE</a>
@@ -318,30 +326,67 @@ don't look even slightly believable.</p>
       </div>
   </section>
 
+ 
+ <!-- <div class="middle pa">
+    <div class="counting-sec">
+       <div class="inner-width">
+         <div class="col">
+           <div class="numm">79</div>
+           Teachers
+         </div>
+         <div class="col">
+           <div class="numm">750</div>
+           students
+         </div>
+         <div class="col">
+           <div class="numm">36</div>
+           courses
+         </div>
+         <div class="col">
+           <div class="numm">20</div>
+           countries
+         </div>
+       </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(".numm").counterUp({delay:10,time:1000});
+
+  </script>
+-->
   <section class="section2 pa">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-xs-6">
-          <p>79+</p>
+          <div class="count-up h1 text-center" data-from="0" data-to="79" data-time="1000">
+            0 <span>+</span>
+          </div>
           <h2>Teachers</h2>
         </div>
         <div class="col-md-3 col-xs-6">
-          <p>750+</p>
+          <div class="count1 h1 text-center" data-from="0" data-to="750" data-time="1000">
+            0
+          </div>
           <h2>Students</h2>
         </div>
         <div class="col-md-3 col-xs-6">
-          <p>36+</p>
+          <div class="count3 h1 text-center" data-from="0" data-to="39" data-time="1000">
+            0
+          </div>
           <h2>Course</h2>
         </div>
         <div class="col-md-3 col-xs-6">
-          <p>20+</p>
+          <div class="count4 h1 text-center" data-from="0" data-to="20" data-time="1000">
+            0
+          </div>
           <h2>Countries</h2>
         </div>
 
       </div>
     </div>
   </section>
-
+  
+  </section>
   <section class="section3">
     <div class="container">
       <div class="row">
@@ -651,6 +696,47 @@ don't look even slightly believable.</p>
       </div>
     </div>
   </footer>
+<script type="text/javascript">
+  
+  (function ($){
+  $.fn.counter = function() {
+    const $this = $(this),
+    numberFrom = parseInt($this.attr('data-from')),
+    numberTo = parseInt($this.attr('data-to')),
+    delta = numberTo - numberFrom,
+    deltaPositive = delta > 0 ? 1 : 0,
+    time = parseInt($this.attr('data-time')),
+    changeTime = 10;
+    
+    let currentNumber = numberFrom,
+    value = delta*changeTime/time;
+    var interval1;
+    const changeNumber = () => {
+      currentNumber += value;
+      //checks if currentNumber reached numberTo
+      (deltaPositive && currentNumber >= numberTo) || (!deltaPositive &&currentNumber<= numberTo) ? currentNumber=numberTo : currentNumber;
+      this.text(parseInt(currentNumber));
+      currentNumber == numberTo ? clearInterval(interval1) : currentNumber;  
+    }
 
+    interval1 = setInterval(changeNumber,changeTime);
+  }
+}(jQuery));
+
+$(document).ready(function(){
+
+  $('.count-up').counter();
+  $('.count1').counter();
+  $('.count2').counter();
+  $('.count3').counter();
+  $('.count4').counter();
+  
+  new WOW().init();
+  
+  setTimeout(function () {
+    $('.count5').counter();
+  }, 3000);
+});
+</script>
 </body>
 </html>

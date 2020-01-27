@@ -166,7 +166,7 @@ text-decoration: none;
 	text-align: center;
 	padding-bottom: 50px;
 	right: 0px;
-	left: 0px
+	left: 110px;
 }
 .soustitre1{
 	color: #002147;
@@ -250,28 +250,34 @@ text-decoration: none;
     .carousel,
     .carousel-item,
     .carousel-item.active {
-      height: 500px;
+      height: 100%;
     }
     .carousel-inner {
       height: 100%;
+    }
+    .hauteur{
+    	height: 500px;
     }
     .carousel-item1 {
       background-image: url("http://preview.hasthemes.com/study/img/slider/1.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
+      height: 500px;
     }
     .carousel-item2 {
       background-image: url("http://preview.hasthemes.com/study/img/slider/2.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
+      height: 500px;
     }
     .carousel-item3 {
       background-image: url("http://preview.hasthemes.com/study/img/slider/1.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
+      height: 500px;
     }
     .section6{
     color: white;
@@ -281,7 +287,145 @@ text-decoration: none;
 }
 /************************************************************detailll**************************/
 .pdetail{
-	font-size: 12px;
-	color:#ccc;
-	font-weight: normal;
+	font-size: 13px;
+	color:black;
+	font-weight: lighter;
+}
+.tete{
+	background-color: #fdc800;
+	color: white;
+	font-family: "Lato",sans-serif;
+	font-weight: lighter;
+}
+.contenu{
+	color: #4c4c4c;
+	background-color: #f6f6f6;
+	font-weight: lighter;
+}
+.droite{
+	text-align: right;
+}
+.bordure{
+	border: 1px solid #eee;
+}
+.count
+{
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+
+
+
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  background-color: blue;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    bottom: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -5rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+  
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+.first-text {
+  font-size: 4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: white;
 }
